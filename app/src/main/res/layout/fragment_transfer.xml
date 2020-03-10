@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRose"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="28sp"
+        android:background="#aaaaaa"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:padding="10dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receiver Email"
+            android:textSize="32sp"
+            ></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="36sp"
+            android:id="@+id/receiver_email"
+            android:background="@drawable/round_corner"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Re-enter Receiver Email"
+            android:textSize="32sp"
+            ></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="36sp"
+            android:id="@+id/rereceiver_email"
+            android:background="@drawable/round_corner"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of Tokens"
+            android:textSize="32sp"
+            ></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="36sp"
+            android:background="@drawable/round_corner"
+            android:id="@+id/transfer_token_num"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/transfer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:background="@drawable/round_corner"
+        ></Button>
+
+
+
+</LinearLayout>

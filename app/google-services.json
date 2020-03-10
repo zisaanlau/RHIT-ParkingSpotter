@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1055745240344",
+    "firebase_url": "https://parkingspotter-b19df.firebaseio.com",
+    "project_id": "parkingspotter-b19df",
+    "storage_bucket": "parkingspotter-b19df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055745240344:android:5ffd941a22c612fd92026d",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.parkingspotter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055745240344-4t5ctb26kq34kg7527fquvaqapiar8tc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.rosehulman.parkingspotter",
+            "certificate_hash": "202d86bac346901410e2a1f0ffc7ac07b2d2d676"
+          }
+        },
+        {
+          "client_id": "1055745240344-meturhi0baviem84uq6c6jo3mdl9v0rb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMcOt8dY7kpHfyFq3MZaaoVCcyH1wVFgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055745240344-meturhi0baviem84uq6c6jo3mdl9v0rb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="Speed Side"
+        android:id="@+id/speedSide"
+
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed Main"
+        android:id="@+id/speedMain"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percopo Main"
+        android:id="@+id/percopoMain"
+        >
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SRC Main"
+        android:id="@+id/srcMain"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SRC Back"
+        android:id="@+id/srcBack"
+        >
+
+    </Button>
+</LinearLayout>

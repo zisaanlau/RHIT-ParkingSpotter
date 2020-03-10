@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ParkingSpotter</string>
+    <string name="welcome_text">Rose-Hulman Parking Spotter</string>
+    <string name="start_text"><![CDATA[Start   ->]]></string>
+    <string name="title">Rose-hulman parking spotter</string>
+    <string-array name="parklot_array">
+        <item>Speed Main Lot</item>
+        <item>Percopo Small Lot</item>
+        <item>Percopo Main Lot</item>
+        <item>Cook Lot</item>
+        <item>SRC West Lot</item>
+        <item>Lower Moench Lot</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
